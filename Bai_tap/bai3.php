@@ -1,6 +1,6 @@
 <?php
 function ClassName($str){
-    $regex='/^[ACP]{1}[0-9]{4}[G-M]{1}$/';
+    $regex='/^[CAP]{1}[0-9]{4}[G-M]{1}$/';
     if(preg_match($regex,$str)){
         echo "Welcome to class";
     }else{
@@ -9,4 +9,4 @@ function ClassName($str){
 }
 ClassName('C0318G');
 echo "<br>";
-ClassName('C0820H');
+ClassName('C0820H1');
